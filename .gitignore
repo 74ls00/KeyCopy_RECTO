@@ -15,9 +15,8 @@ DSS-3.2P.wiki
 
 
 
-.~*
+.~lock.*
 *.bak
-*.doc#
 *.lnk
 *.log
 *.b#1
