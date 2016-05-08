@@ -1,29 +1,24 @@
-
-1.txt
 mod.txt
-partlist.txt
 git.txt
 d2-read.HEX
-EpromM51_98D12C3.lnk
-OOo2MediaWiki_0.3.xslt
+box.lay6
+
 
 
 
 3d
 backup/
-com/
-local/
-pic/
-print/
-old/
 KeyCopy_RECTO.wiki
+local/
+old/
+
 
 RECTO/
 recto
 
 
 
-.~lock.*
+
 *.bak
 *.lnk
 *.log
@@ -54,5 +49,6 @@ recto
 *.l#7
 *.l#8
 *.l#9
+*.mpd
 *.pro
 *.job

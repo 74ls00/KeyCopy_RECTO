@@ -22,10 +22,10 @@ UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.3.0/lbr/eagle/switch-omron.lbr"
 UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.3.0/lbr/eagle/transistor-pnp.lbr"
 UsedLibrary="G:/Programs/ProgramsT/EAGLE/EAGLE-6.3.0/lbr/eagle/transistor.lbr"
 UsedLibrary="G:/home/Documents/Projects/EAGLE/HVProg/programmer/HWProgUSB.lbr"
-UsedLibrary="keycopy.lbr"
-UsedLibrary="keysens.lbr"
-UsedLibrary="keycopy2.lbr"
-UsedLibrary="keycopy3.lbr"
+UsedLibrary="lbr/keycopy.lbr"
+UsedLibrary="lbr/keycopy2.lbr"
+UsedLibrary="lbr/keycopy3.lbr"
+UsedLibrary="lbr/keysens.lbr"
 
 [Win_1]
 Type="Schematic Editor"
@@ -109,7 +109,7 @@ Layer=16
 
 [Win_3]
 Type="CAM Processor"
-Loc="432 316 1031 751"
+Loc="259 277 858 712"
 State=2
 Number=4
 File="keycopy.brd"
@@ -117,7 +117,7 @@ Job="ExportGerber.cam"
 
 [Win_4]
 Type="Control Panel"
-Loc="202 426 801 825"
+Loc="264 240 863 639"
 State=2
 Number=0
 
