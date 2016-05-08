@@ -4,7 +4,7 @@ mod.txt
 partlist.txt
 git.txt
 d2-read.HEX
-
+EpromM51_98D12C3.lnk
 
 
 3d
@@ -13,8 +13,10 @@ com/
 local/
 pic/
 print/
-
 old
+KeyCopy_RECTO.wiki
+
+Writer_v6.23
 
 
 
