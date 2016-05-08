@@ -3772,7 +3772,7 @@ type 0204, grid 7.5 mm</description>
 <attribute name="NAME" x="64.135" y="32.385" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="63.8175" y="34.29" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C1*" library="keycopy" package="C025-030X050" value="2n" x="72.7075" y="3.4925" smashed="yes" rot="R270">
+<element name="C1*" library="keycopy" package="C025-030X050" value="2n2" x="72.7075" y="3.4925" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.549" y="6.604" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="69.9135" y="5.7785" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -3808,11 +3808,11 @@ type 0204, grid 7.5 mm</description>
 <attribute name="NAME" x="40.005" y="6.6675" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="39.37" y="2.54" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C8" library="keycopy" package="C025-030X050" value="150n" x="35.56" y="3.4925" smashed="yes" rot="R270">
+<element name="C8" library="keycopy" package="C025-030X050" value="100n" x="35.56" y="3.4925" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.8615" y="6.2865" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="32.766" y="5.7785" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="TEST_PIN" library="keycopy" package="1X01" value="" x="63.8175" y="6.6675" smashed="yes" rot="R90">
+<element name="TEST_PIN" library="keycopy" package="1X01" value="+30V" x="63.8175" y="6.6675" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.5762" y="8.4963" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="66.9925" y="5.3975" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -3920,15 +3920,15 @@ type 0204, grid 7.5 mm</description>
 <element name="U$6" library="HWProgUSB" package="PROGRAMMER_KEY" value="PROGRAMMER_5.08" x="97.4725" y="33.3375" smashed="yes" rot="R270"/>
 <element name="U$7" library="HWProgUSB" package="PROGRAMMER_KEY" value="PROGRAMMER_5.08" x="98.7425" y="23.8125" smashed="yes" rot="R90"/>
 <element name="U$8" library="HWProgUSB" package="PROGRAMMER_KEY" value="PROGRAMMER_5.08" x="86.0425" y="23.8125" smashed="yes" rot="R90"/>
-<element name="DISP" library="keycopy" package="TUXGR_16X2_1" value="TUXGR_16X2_R21" x="40.5638" y="18.4912" smashed="yes">
+<element name="DISP" library="keycopy" package="TUXGR_16X2_1" value="QC1602A V2.0" x="40.5638" y="18.4912" smashed="yes">
 <attribute name="NAME" x="2.4638" y="36.9062" size="1.27" layer="25"/>
 <attribute name="VALUE" x="41.1988" y="36.9062" size="1.27" layer="27"/>
 </element>
-<element name="L1" library="keycopy" package="0207/2V" value="820mkhn" x="78.74" y="9.2075" smashed="yes" rot="R270">
+<element name="L1" library="keycopy" package="0207/2V" value="777" x="78.74" y="9.2075" smashed="yes" rot="R270">
 <attribute name="NAME" x="78.3717" y="12.1285" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="76.5048" y="9.2583" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C8B" library="keycopy" package="C025-030X050" value="150n" x="32.385" y="3.4925" smashed="yes" rot="R270">
+<element name="C8B" library="keycopy" package="C025-030X050" value="47n" x="32.385" y="3.4925" smashed="yes" rot="R270">
 <attribute name="NAME" x="31.0515" y="6.35" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="29.337" y="5.7785" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -3940,7 +3940,7 @@ type 0204, grid 7.5 mm</description>
 <attribute name="NAME" x="65.0875" y="16.51" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="66.675" y="12.7" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C1B*" library="keycopy" package="C025-030X050" value="2n" x="69.5325" y="3.4925" smashed="yes" rot="R270">
+<element name="C1B*" library="keycopy" package="C025-030X050" value="" x="69.5325" y="3.4925" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.2315" y="5.08" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="66.4845" y="5.7785" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -3974,7 +3974,7 @@ type 0204, grid 7.5 mm</description>
 <attribute name="VALUE" x="20.6375" y="5.87375" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="R3B" library="keycopy" package="M0805" value="1k5" x="63.1825" y="31.75" rot="MR0"/>
-<element name="R" library="rcl" package="R0805" value="1k" x="53.975" y="26.035" smashed="yes" rot="MR225">
+<element name="R" library="rcl" package="R0805" value="10k" x="53.975" y="26.035" smashed="yes" rot="MR225">
 <attribute name="NAME" x="55.312465625" y="22.282665625" size="1.27" layer="26" ratio="10" rot="MR225"/>
 <attribute name="VALUE" x="54.257915625" y="25.7520875" size="0.02" layer="28" rot="MR225"/>
 </element>
@@ -4203,9 +4203,9 @@ type 0204, grid 7.5 mm</description>
 <contactref element="L3" pad="2"/>
 <wire x1="35.2425" y1="20.955" x2="36.5125" y2="21.209" width="2.032" layer="16"/>
 <contactref element="R" pad="2"/>
-<wire x1="11.1038" y1="33.9912" x2="33.909" y2="19.8755" width="0" layer="19" extent="16-16"/>
 <wire x1="54.646753125" y1="25.363246875" x2="54.6800625" y2="25.363246875" width="0.3048" layer="16"/>
 <wire x1="54.6800625" y1="25.363246875" x2="55.003790625" y2="25.03951875" width="0.3048" layer="16"/>
+<wire x1="11.1038" y1="33.9912" x2="33.909" y2="19.8755" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$4">
 <contactref element="DD1" pad="9"/>
