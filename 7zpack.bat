@@ -22,12 +22,12 @@ rem set listtxt=%propath%\help\7zlist.txt
 set listtxt=%~d0%~p07zlist.txt
 
 set incl=backup
-set incl2=hwprog
+set incl2=.git
 set incl3=dude
 set incl4=set
 set incl5=pic
 set incl6=local
-set incl7=uploads
+set incl7=old
 set incl8=programmer_dip
 set incl9=mod.txt
 
