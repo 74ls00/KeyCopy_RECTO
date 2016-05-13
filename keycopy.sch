@@ -35227,7 +35227,7 @@ Source: www.kingbright.com</description>
 <part name="C12" library="resistor" deviceset="C-EU" device="C0805K" value="1n"/>
 <part name="U$2" library="lib-user" deviceset="GND" device=""/>
 <part name="R22" library="resistor" deviceset="R-EU_" device="R0805" value="150"/>
-<part name="R21" library="resistor" deviceset="R-EU_" device="R0805" value="1R"/>
+<part name="R21" library="resistor" deviceset="R-EU_" device="R0805" value="0.5R"/>
 <part name="U$3" library="lib-user" deviceset="GND" device=""/>
 <part name="C10" library="keycopy" deviceset="CPOL-EU" device="E2.5-6" value="47n"/>
 <part name="R23" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
@@ -35884,7 +35884,7 @@ T4148+LL4148+КД522Б
 <segment>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
 <pinref part="R" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="139.7" x2="149.86" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="139.7" x2="149.86" y2="137.16" width="0.1524" layer="91" style="shortdash"/>
 </segment>
 </net>
 <net name="PGM" class="0">
@@ -36389,7 +36389,7 @@ T4148+LL4148+КД522Б
 <junction x="139.7" y="114.3"/>
 <wire x1="149.86" y1="114.3" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="127" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="127" x2="149.86" y2="114.3" width="0.1524" layer="91" style="shortdash"/>
 <junction x="149.86" y="114.3"/>
 </segment>
 <segment>
