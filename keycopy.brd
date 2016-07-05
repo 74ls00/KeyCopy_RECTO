@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3883,7 +3883,7 @@ grid 2.3 mm, vertical</description>
 <attribute name="NAME" x="15.8115" y="17.907" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="13.462" y="15.494" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R24" library="resistor" package="R1206W" value="3k" x="9.525" y="16.1925" smashed="yes" rot="MR270">
+<element name="R24" library="resistor" package="R1206W" value="(3k&amp;22k)" x="9.525" y="16.1925" smashed="yes" rot="MR270">
 <attribute name="NAME" x="8.4455" y="10.7315" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="11.938" y="17.8435" size="1.27" layer="28" rot="MR270"/>
 </element>
@@ -3969,7 +3969,7 @@ grid 2.3 mm, vertical</description>
 <attribute name="NAME" x="55.153715625" y="22.441415625" size="1.27" layer="26" ratio="10" rot="MR225"/>
 <attribute name="VALUE" x="54.099165625" y="25.9108375" size="0.02" layer="28" rot="MR225"/>
 </element>
-<element name="L3" library="rcl" package="0207/12" value="100uH" x="26.9875" y="19.05" smashed="yes">
+<element name="L3" library="rcl" package="0207/12" value="30uH" x="26.9875" y="19.05" smashed="yes">
 <attribute name="NAME" x="25.7175" y="18.2245" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="24.7015" y="18.3642" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -4236,11 +4236,11 @@ grid 2.3 mm, vertical</description>
 <wire x1="16.1671" y1="4.7625" x2="16.1925" y2="4.7371" width="0.3048" layer="16"/>
 <wire x1="13.106" y1="7.391" x2="27.6225" y2="7.391" width="0.3048" layer="16"/>
 <wire x1="27.6225" y1="7.391" x2="27.94" y2="7.7085" width="0.3048" layer="16"/>
-<wire x1="16.1671" y1="4.7625" x2="16.1671" y2="4.1021" width="0.254" layer="16"/>
-<wire x1="16.1671" y1="4.1021" x2="15.5575" y2="3.4925" width="0.254" layer="16"/>
-<wire x1="15.5575" y1="3.4925" x2="12.7" y2="3.4925" width="0.254" layer="16"/>
-<wire x1="12.7" y1="3.4925" x2="12.065" y2="4.1275" width="0.254" layer="16"/>
-<wire x1="12.065" y1="4.1275" x2="12.065" y2="5.715" width="0.254" layer="16"/>
+<wire x1="16.1671" y1="4.7625" x2="16.1671" y2="4.1021" width="0.3048" layer="16"/>
+<wire x1="16.1671" y1="4.1021" x2="15.5575" y2="3.4925" width="0.3048" layer="16"/>
+<wire x1="15.5575" y1="3.4925" x2="12.7" y2="3.4925" width="0.3048" layer="16"/>
+<wire x1="12.7" y1="3.4925" x2="12.065" y2="4.1275" width="0.3048" layer="16"/>
+<wire x1="12.065" y1="4.1275" x2="12.065" y2="5.715" width="0.3048" layer="16"/>
 </signal>
 <signal name="PGM">
 <contactref element="ICSP0" pad="6"/>
@@ -4877,7 +4877,7 @@ grid 2.3 mm, vertical</description>
 <wire x1="81.5975" y1="15.875" x2="79.375" y2="18.0975" width="0.4064" layer="16"/>
 <wire x1="79.375" y1="18.0975" x2="75.565" y2="19.3675" width="0.4064" layer="16"/>
 </signal>
-<signal name="N$5">
+<signal name="1W_">
 <contactref element="DD1" pad="6"/>
 <via x="30.1625" y="6.6675" extent="1-16" drill="0.8" diameter="2.3"/>
 <wire x1="30.1625" y1="6.6675" x2="30.1625" y2="11.1125" width="0.4064" layer="1"/>
@@ -4899,9 +4899,9 @@ grid 2.3 mm, vertical</description>
 <contactref element="J6" pad="1"/>
 <wire x1="5.715" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="16"/>
 <wire x1="20.22" y1="3.33375" x2="20.0025" y2="3.4925" width="0.4064" layer="16"/>
-<wire x1="20.0025" y1="3.4925" x2="18.7325" y2="2.8575" width="0.4064" layer="16"/>
-<wire x1="18.7325" y1="2.8575" x2="10.4775" y2="2.8575" width="0.4064" layer="16"/>
-<wire x1="10.4775" y1="2.8575" x2="5.715" y2="7.62" width="0.4064" layer="16"/>
+<wire x1="20.0025" y1="3.4925" x2="18.57375" y2="2.54" width="0.4064" layer="16"/>
+<wire x1="18.57375" y1="2.54" x2="10.4775" y2="2.54" width="0.4064" layer="16"/>
+<wire x1="10.4775" y1="2.54" x2="5.715" y2="7.62" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$25">
 <wire x1="0.635" y1="37.465" x2="0.635" y2="38.735" width="0.4064" layer="16"/>

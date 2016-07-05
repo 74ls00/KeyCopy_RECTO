@@ -35231,7 +35231,7 @@ Source: www.kingbright.com</description>
 <part name="U$3" library="lib-user" deviceset="GND" device=""/>
 <part name="C10" library="keycopy" deviceset="CPOL-EU" device="E2.5-6" value="47n"/>
 <part name="R23" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="R24" library="resistor" deviceset="R-EU_" device="R1206W" value="3k"/>
+<part name="R24" library="resistor" deviceset="R-EU_" device="R1206W" value="(3k&amp;22k)"/>
 <part name="VD8" library="diode" deviceset="DIODE-" device="SMB" value="SS14"/>
 <part name="C15" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="SUPPLY2" library="supply2" deviceset="V+" device=""/>
@@ -35265,7 +35265,7 @@ Source: www.kingbright.com</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="R3~" library="keycopy" deviceset="R-EU_" device="M0805" value="SMD"/>
 <part name="R" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
-<part name="L3" library="rcl" deviceset="L-US" device="0207/12" value="100uH"/>
+<part name="L3" library="rcl" deviceset="L-US" device="0207/12" value="30uH"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C1210" value="22m"/>
 <part name="U$9" library="lib-user" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
@@ -35297,6 +35297,7 @@ T4148+LL4148+КД522Б
 или увеличением сопротивления на 20ом, 
 импортные слишком точные, придётся ставить
 второе</text>
+<text x="314.96" y="163.83" size="1.778" layer="91">+5.2v</text>
 </plain>
 <instances>
 <instance part="LCD" gate="A" x="302.26" y="91.44"/>
@@ -35531,7 +35532,7 @@ T4148+LL4148+КД522Б
 <instance part="U$6" gate="G$1" x="241.3" y="101.6"/>
 <instance part="U$7" gate="G$1" x="241.3" y="116.84"/>
 <instance part="U$8" gate="G$1" x="241.3" y="134.62"/>
-<instance part="DISP" gate="G$1" x="238.76" y="45.72"/>
+<instance part="DISP" gate="G$1" x="316.23" y="91.44" rot="R270"/>
 <instance part="L1" gate="G$1" x="58.42" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="60.96" y="52.07" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="63.5" y="49.53" size="1.778" layer="96" rot="R180"/>
@@ -36570,11 +36571,11 @@ T4148+LL4148+КД522Б
 <wire x1="147.32" y1="58.42" x2="147.32" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="1W_" class="0">
 <segment>
 <pinref part="DD1" gate="G$1" pin="RB0/INT"/>
 <wire x1="38.1" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
-<label x="35.56" y="93.98" size="1.778" layer="95" rot="MR0"/>
+<label x="34.29" y="99.06" size="1.778" layer="95" rot="MR180"/>
 <wire x1="33.02" y1="93.98" x2="33.02" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="J5" gate="G$1" pin="1"/>
 </segment>
